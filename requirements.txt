@@ -1,0 +1,7 @@
+opencv-python>=4.8
+# mediapipe 目前尚未支持 Python 3.13；在 3.12 及以下使用已发布的稳定版本
+mediapipe==0.10.14 ; python_version < "3.13"
+pygame>=2.5
+# numpy 在 3.12 以上建议使用 2.x，兼容 3.11/3.10 使用 1.24+
+numpy>=1.24 ; python_version < "3.12"
+numpy>=2.0  ; python_version >= "3.12"
